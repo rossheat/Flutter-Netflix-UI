@@ -1,0 +1,39 @@
+name: netflix_ui
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.5.0
+  page_transition: ^1.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+
+  fonts:
+    - family: MartelSans
+      fonts:
+        - asset: assets/fonts/MartelSans-ExtraBold.ttf
+          weight: 900
+        - asset: assets/fonts/MartelSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/MartelSans-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/MartelSans-Regular.ttf
+        - asset: assets/fonts/MartelSans-Light.ttf
+          weight: 200
+        - asset: assets/fonts/MartelSans-ExtraLight.ttf
+          weight: 100
